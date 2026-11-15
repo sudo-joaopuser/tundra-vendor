@@ -3320,8 +3320,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/tundra/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_c_1080p_dsc_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_c_1080p_dsc_655.xml \
     vendor/motorola/tundra/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_tm_c_1080p_dsc_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_tm_c_1080p_dsc_655.xml \
     vendor/motorola/tundra/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
-    vendor/motorola/tundra/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
-    vendor/motorola/tundra/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/motorola/tundra/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/motorola/tundra/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/motorola/tundra/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
@@ -3489,12 +3487,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0 \
     btaudio_offload_if \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
-    libadm \
     libaudcal \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -3517,9 +3513,7 @@ PRODUCT_PACKAGES += \
     libqcodec2_v4l2codec \
     libqtigef \
     libasphere \
-    libmmieffectswrapper \
     libshoebox \
-    vendor.qti.qspmhal@1.0 \
     com.mot.eeprom.mot_gt24p128e_ov50a_eeprom \
     com.mot.eeprom.mot_gt24p64e_hi1336_eeprom \
     com.mot.eeprom.mot_gt24p64e_s5kgd2_eeprom \
@@ -4137,9 +4131,6 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     vendor_bin_expat \
-    vendor_lib_libEGL_adreno_so \
-    vendor_lib_libGLESv2_adreno_so \
-    vendor_lib_libq3dtools_adreno_so \
     vendor_lib64_rfsa_adsp_libsns_device_mode_skel_so \
     vendor_lib64_rfsa_adsp_libsns_low_lat_stream_skel_so \
     vendor_lib64_libEGL_adreno_so \
